@@ -33,7 +33,6 @@
                                     <rect key="frame" x="158" y="284" width="85" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXC-b2-3j1"/>
                                     <segue destination="4pl-cb-0hl" kind="show" id="b5V-MQ-fgf"/>
                                 </connections>
                             </button>
@@ -139,7 +138,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-10" y="37" width="385" height="646"/>
+                                    <rect key="frame" x="-5" y="45" width="385" height="646"/>
                                 </variation>
                             </imageView>
                         </subviews>

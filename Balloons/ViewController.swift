@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         locationManager.startUpdatingLocation()
         
         let bournemouthPier = CLLocationCoordinate2D(latitude: 50.716098, longitude: -1.875780)
-        let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 50, identifier: "Bournemouth")
+        let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 100, identifier: "Bournemouth")
         locationManager.startMonitoringForRegion(bournemouthPierRegion)
         
     }
@@ -48,6 +48,7 @@ extension ViewController: CLLocationManagerDelegate {
         print("Leaving \(region.identifier)")
         
         self.enterButton.hidden = true
+       //navigationController?.popToRootViewControllerAnimated(true)
     }
     
 }
