@@ -25,14 +25,15 @@
                                     <rect key="frame" x="0.0" y="30" width="400" height="656"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgr-0S-bwJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgr-0S-bwJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="ENTER!"/>
+                                <state key="normal" image="enter.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="174" y="286" width="52" height="30"/>
+                                    <rect key="frame" x="159" y="286" width="85" height="28"/>
                                 </variation>
                                 <connections>
+                                    <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXC-b2-3j1"/>
                                     <segue destination="4pl-cb-0hl" kind="show" id="b5V-MQ-fgf"/>
                                 </connections>
                             </button>
@@ -54,7 +55,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="HtF-iG-Tq6"/>
                     <connections>
-                        <outlet property="enterButton" destination="wgr-0S-bwJ" id="1Wd-mu-Owl"/>
+                        <outlet property="enterButton" destination="wgr-0S-bwJ" id="N5c-Ia-gBi"/>
                         <outlet property="imgOne" destination="Z0m-oA-U89" id="XeW-hE-NA3"/>
                     </connections>
                 </viewController>
@@ -333,6 +334,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="enter.png" width="85" height="28"/>
         <image name="homepage.jpg" width="750" height="1334"/>
         <image name="news.png" width="200" height="100"/>
         <image name="newspage.jpg" width="750" height="1334"/>
