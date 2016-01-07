@@ -13,28 +13,30 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.enterButton.hidden = true
         
         locationManager.requestAlwaysAuthorization()
         locationManager.delegate = self
+        locationManager.startUpdatingLocation()
         
         let bournemouthPier = CLLocationCoordinate2D(latitude: 50.716098, longitude: -1.875780)
-        
         let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 50, identifier: "Bournemouth")
-        bournemouthPierRegion.notifyOnEntry = false
-        bournemouthPierRegion.notifyOnExit = false
         locationManager.startMonitoringForRegion(bournemouthPierRegion)
         
-        let boscombePier = CLLocationCoordinate2D(latitude: 50.719914, longitude: -1.843552)
-        
-        let boscombePierRegion = CLCircularRegion(center: boscombePier, radius: 50, identifier: "Boscombe")
-        boscombePierRegion.notifyOnEntry = false
-        boscombePierRegion.notifyOnExit = false
-        locationManager.startMonitoringForRegion(boscombePierRegion)
     }
     
 }
 
 extension ViewController: CLLocationManagerDelegate {
+    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let newLocation = locations.last
+        
+        if let newLocation = newLocation {
+        
+            print(newLocation)
+        }
+    }
     
     func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
         print("Entering \(region.identifier)")

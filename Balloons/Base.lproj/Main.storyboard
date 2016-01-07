@@ -30,7 +30,7 @@
                                 <animations/>
                                 <state key="normal" image="enter.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="159" y="286" width="85" height="28"/>
+                                    <rect key="frame" x="158" y="284" width="85" height="28"/>
                                 </variation>
                                 <connections>
                                     <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXC-b2-3j1"/>
