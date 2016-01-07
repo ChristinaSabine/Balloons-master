@@ -60,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="363" y="420.75"/>
+            <point key="canvasLocation" x="-513" y="426.75"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="4dh-WP-2Yg">
@@ -74,39 +74,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news.png" translatesAutoresizingMaskIntoConstraints="NO" id="iKD-dW-kxi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newspage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MP7-pw-rwP">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="108" y="72" width="184" height="98"/>
+                                    <rect key="frame" x="0.0" y="64" width="385" height="646"/>
                                 </variation>
                             </imageView>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="TOP STORIES" translatesAutoresizingMaskIntoConstraints="NO" id="lZr-5I-UPC">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <color key="textColor" red="0.98993621447860913" green="1" blue="0.9548966615038994" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="188" width="150" height="33"/>
-                                </variation>
-                            </textView>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="RECENT STORIES" translatesAutoresizingMaskIntoConstraints="NO" id="4MM-Su-Lbm">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <color key="textColor" red="0.98993621447860913" green="1" blue="0.9548966615038994" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="361" width="189" height="36"/>
-                                </variation>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-3c-Eof">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button2"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="173" y="270" width="55" height="30"/>
+                                    <rect key="frame" x="144" y="282" width="107" height="108"/>
                                 </variation>
                                 <connections>
                                     <segue destination="bWh-J4-OUh" kind="show" id="Ffd-Z4-Abk"/>
@@ -115,9 +94,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-yC-uOU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button3"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="282" y="270" width="55" height="30"/>
+                                    <rect key="frame" x="266" y="282" width="105" height="110"/>
                                 </variation>
                                 <connections>
                                     <segue destination="rG6-Tq-2VX" kind="show" id="peX-2V-c9v"/>
@@ -126,44 +104,108 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vat-Zj-7e4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button1"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="63" y="270" width="52" height="30"/>
+                                    <rect key="frame" x="26" y="282" width="105" height="109"/>
                                 </variation>
                                 <connections>
                                     <segue destination="faZ-QZ-Ox9" kind="show" id="7qG-kb-vtg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newspage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MP7-pw-rwP">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfP-sw-4BR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
+                                <state key="normal" title="4"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-5" y="45" width="385" height="646"/>
+                                    <rect key="frame" x="26" y="436" width="100" height="110"/>
                                 </variation>
-                            </imageView>
+                                <connections>
+                                    <segue destination="BIm-VL-teT" kind="show" id="p7B-ox-bPM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXj-8J-YEW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="5"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="144" y="436" width="107" height="111.5"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="IBQ-KS-bhu" kind="show" id="boO-9f-sdo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV0-I2-fZb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="6"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="266" y="436" width="105" height="113.5"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="2b4-q4-ev8" kind="show" id="j49-6K-y1E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztV-Rl-oGB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="7"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="564" width="105" height="112"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="R7w-4L-x34" kind="show" id="v0l-tG-sVh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFu-kx-pht">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="8"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="144" y="564" width="107" height="113"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="F5t-kk-LL1" kind="show" id="vEd-Sb-qIa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yci-ui-Fa8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="9"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="266" y="564" width="105" height="112"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lsq-rW-3q1" kind="show" id="dRa-5r-fA3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="iKD-dW-kxi"/>
-                                <exclude reference="lZr-5I-UPC"/>
-                                <exclude reference="4MM-Su-Lbm"/>
+                                <exclude reference="MP7-pw-rwP"/>
                                 <exclude reference="r0F-3c-Eof"/>
                                 <exclude reference="Ebd-yC-uOU"/>
                                 <exclude reference="Vat-Zj-7e4"/>
-                                <exclude reference="MP7-pw-rwP"/>
+                                <exclude reference="YfP-sw-4BR"/>
+                                <exclude reference="AXj-8J-YEW"/>
+                                <exclude reference="AV0-I2-fZb"/>
+                                <exclude reference="ztV-Rl-oGB"/>
+                                <exclude reference="uFu-kx-pht"/>
+                                <exclude reference="yci-ui-Fa8"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="iKD-dW-kxi"/>
-                                <include reference="lZr-5I-UPC"/>
-                                <include reference="4MM-Su-Lbm"/>
+                                <include reference="MP7-pw-rwP"/>
                                 <include reference="r0F-3c-Eof"/>
                                 <include reference="Ebd-yC-uOU"/>
                                 <include reference="Vat-Zj-7e4"/>
-                                <include reference="MP7-pw-rwP"/>
+                                <include reference="YfP-sw-4BR"/>
+                                <include reference="AXj-8J-YEW"/>
+                                <include reference="AV0-I2-fZb"/>
+                                <include reference="ztV-Rl-oGB"/>
+                                <include reference="uFu-kx-pht"/>
+                                <include reference="yci-ui-Fa8"/>
                             </mask>
                         </variation>
                     </view>
@@ -175,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clr-7H-ZNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1035" y="420.75"/>
+            <point key="canvasLocation" x="597" y="426.75"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="v3Z-D9-YNr">
@@ -216,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R9U-sU-f0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1338" y="-264"/>
+            <point key="canvasLocation" x="192" y="-234"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="z1D-nI-PHR">
@@ -257,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="097-W2-Lf1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2049" y="-423.75"/>
+            <point key="canvasLocation" x="945" y="-234"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2Qt-Mc-9ng">
@@ -269,13 +311,32 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZLI-BT-Q7i">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n8e-cc-4PW">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="n8e-cc-4PW"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="n8e-cc-4PW"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LTz-Gg-a0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663" y="1109.25"/>
+            <point key="canvasLocation" x="-513" y="1121.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zUr-kJ-sgP">
@@ -287,13 +348,32 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ozN-QY-keW">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num8.png" translatesAutoresizingMaskIntoConstraints="NO" id="b23-xY-j4X">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="b23-xY-j4X"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="b23-xY-j4X"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hm8-N5-PBt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1419" y="1109.25"/>
+            <point key="canvasLocation" x="183" y="1121.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rnX-yW-pQb">
@@ -305,13 +385,32 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vjy-7r-BBf">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num7.png" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-DR-Qdw">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="LTn-DR-Qdw"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="LTn-DR-Qdw"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GsG-wl-cst" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2157" y="1007.25"/>
+            <point key="canvasLocation" x="945" y="1121.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Xmh-Ck-m6K">
@@ -323,13 +422,32 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1bm-bK-VA4">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7CN-5b-xgW">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7CN-5b-xgW"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="7CN-5b-xgW"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNC-G7-QDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2013" y="311.25"/>
+            <point key="canvasLocation" x="1617" y="-234"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hY3-b3-Mmg">
@@ -341,13 +459,32 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="E23-5p-rfC">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-Wd-Ca3">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="kXX-Wd-Ca3"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="kXX-Wd-Ca3"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nf0-Vk-36P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2769" y="56.25"/>
+            <point key="canvasLocation" x="1617" y="426.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ua4-dQ-xsb">
@@ -359,13 +496,32 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eQI-y1-FJ7">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FZK-UE-mD0">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="FZK-UE-mD0"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="FZK-UE-mD0"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZYG-Uj-bhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2925" y="779.25"/>
+            <point key="canvasLocation" x="1617" y="1121.25"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="G8W-j7-3GJ">
@@ -418,7 +574,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yVk-6H-syw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="645" y="-264"/>
+            <point key="canvasLocation" x="-513" y="-234"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9Ed-eV-Aok">
@@ -437,16 +593,21 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NuH-vO-cWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-302" y="420.75"/>
+            <point key="canvasLocation" x="-1209" y="420.75"/>
         </scene>
     </scenes>
     <resources>
         <image name="enter.png" width="85" height="28"/>
         <image name="homepage.jpg" width="750" height="1334"/>
-        <image name="news.png" width="200" height="100"/>
         <image name="newspage.jpg" width="750" height="1334"/>
         <image name="num1.jpg" width="250" height="244"/>
         <image name="num2.jpg" width="457" height="363"/>
         <image name="num3.jpg" width="185" height="234"/>
+        <image name="num4.jpg" width="1200" height="630"/>
+        <image name="num5.jpg" width="572" height="733"/>
+        <image name="num6.jpg" width="405" height="296"/>
+        <image name="num7.png" width="800" height="600"/>
+        <image name="num8.png" width="894" height="894"/>
+        <image name="num9.jpg" width="2644" height="2644"/>
     </resources>
 </document>
