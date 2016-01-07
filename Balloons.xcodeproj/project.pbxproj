@@ -37,7 +37,6 @@
 		260408EA1C3ECB1C00D29BC0 /* EightViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408E81C3ECB1C00D29BC0 /* EightViewcontroller.swift */; settings = {ASSET_TAGS = (); }; };
 		260408EB1C3ECB1C00D29BC0 /* EleventhViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408E91C3ECB1C00D29BC0 /* EleventhViewcontroller.swift */; settings = {ASSET_TAGS = (); }; };
 		260408F01C3ECB3D00D29BC0 /* FourthViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408ED1C3ECB3D00D29BC0 /* FourthViewController copy.swift */; settings = {ASSET_TAGS = (); }; };
-		260408F11C3ECB3D00D29BC0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408EE1C3ECB3D00D29BC0 /* FourthViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		260408F31C3ECB5300D29BC0 /* NinthViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408F21C3ECB5300D29BC0 /* NinthViewcontroller.swift */; settings = {ASSET_TAGS = (); }; };
 		260408F71C3ECB6500D29BC0 /* SeventhViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408F41C3ECB6500D29BC0 /* SeventhViewcontroller.swift */; settings = {ASSET_TAGS = (); }; };
 		260408F81C3ECB6500D29BC0 /* SixthViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260408F51C3ECB6500D29BC0 /* SixthViewcontroller.swift */; settings = {ASSET_TAGS = (); }; };
@@ -101,7 +100,6 @@
 		260408E81C3ECB1C00D29BC0 /* EightViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EightViewcontroller.swift; sourceTree = "<group>"; };
 		260408E91C3ECB1C00D29BC0 /* EleventhViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EleventhViewcontroller.swift; sourceTree = "<group>"; };
 		260408ED1C3ECB3D00D29BC0 /* FourthViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FourthViewController copy.swift"; sourceTree = "<group>"; };
-		260408EE1C3ECB3D00D29BC0 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		260408F21C3ECB5300D29BC0 /* NinthViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinthViewcontroller.swift; sourceTree = "<group>"; };
 		260408F41C3ECB6500D29BC0 /* SeventhViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhViewcontroller.swift; sourceTree = "<group>"; };
 		260408F51C3ECB6500D29BC0 /* SixthViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewcontroller.swift; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 				204856F41C1988C40028CA55 /* SecondViewController.swift */,
 				204856FC1C1991090028CA55 /* ThirdViewController.swift */,
 				260408ED1C3ECB3D00D29BC0 /* FourthViewController copy.swift */,
-				260408EE1C3ECB3D00D29BC0 /* FourthViewController.swift */,
 				204857021C19942B0028CA55 /* FifthViewController.swift */,
 				260408F51C3ECB6500D29BC0 /* SixthViewcontroller.swift */,
 				260408F41C3ECB6500D29BC0 /* SeventhViewcontroller.swift */,
@@ -375,7 +372,6 @@
 				260408F91C3ECB6500D29BC0 /* TenthViewcontroller.swift in Sources */,
 				260408EB1C3ECB1C00D29BC0 /* EleventhViewcontroller.swift in Sources */,
 				204856C51C197A6C0028CA55 /* ViewController.swift in Sources */,
-				260408F11C3ECB3D00D29BC0 /* FourthViewController.swift in Sources */,
 				204856FD1C1991090028CA55 /* ThirdViewController.swift in Sources */,
 				260408F71C3ECB6500D29BC0 /* SeventhViewcontroller.swift in Sources */,
 				204856C31C197A6C0028CA55 /* AppDelegate.swift in Sources */,

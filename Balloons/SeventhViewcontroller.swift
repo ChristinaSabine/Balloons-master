@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-
+//Bournemouth is not longer safe...
 class SeventhViewController: UIViewController {
     
     
