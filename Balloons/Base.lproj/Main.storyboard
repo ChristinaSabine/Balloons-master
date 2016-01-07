@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kTm-Oa-D60">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Balloons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Z0m-oA-U89">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="30" width="400" height="656"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgr-0S-bwJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="ENTER!"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="174" y="286" width="52" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="4pl-cb-0hl" kind="show" id="b5V-MQ-fgf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Z0m-oA-U89"/>
+                                <exclude reference="wgr-0S-bwJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Z0m-oA-U89"/>
+                                <include reference="wgr-0S-bwJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="HtF-iG-Tq6"/>
+                    <connections>
+                        <outlet property="enterButton" destination="wgr-0S-bwJ" id="1Wd-mu-Owl"/>
+                        <outlet property="imgOne" destination="Z0m-oA-U89" id="XeW-hE-NA3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="363" y="420.75"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="4dh-WP-2Yg">
+            <objects>
+                <viewController id="4pl-cb-0hl" customClass="SecondViewController" customModule="Balloons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VD0-n3-Otz"/>
+                        <viewControllerLayoutGuide type="bottom" id="BiA-Oh-BxE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kvp-8r-VWd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news.png" translatesAutoresizingMaskIntoConstraints="NO" id="iKD-dW-kxi">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="108" y="72" width="184" height="98"/>
+                                </variation>
+                            </imageView>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="TOP STORIES" translatesAutoresizingMaskIntoConstraints="NO" id="lZr-5I-UPC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="textColor" red="0.98993621447860913" green="1" blue="0.9548966615038994" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="188" width="150" height="33"/>
+                                </variation>
+                            </textView>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="RECENT STORIES" translatesAutoresizingMaskIntoConstraints="NO" id="4MM-Su-Lbm">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="textColor" red="0.98993621447860913" green="1" blue="0.9548966615038994" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="361" width="189" height="36"/>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-3c-Eof">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button2"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="173" y="270" width="55" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="bWh-J4-OUh" kind="show" id="Ffd-Z4-Abk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-yC-uOU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button3"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="282" y="270" width="55" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="rG6-Tq-2VX" kind="show" id="peX-2V-c9v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vat-Zj-7e4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button1"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="63" y="270" width="52" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="faZ-QZ-Ox9" kind="show" id="7qG-kb-vtg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newspage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MP7-pw-rwP">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-10" y="37" width="385" height="646"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="iKD-dW-kxi"/>
+                                <exclude reference="lZr-5I-UPC"/>
+                                <exclude reference="4MM-Su-Lbm"/>
+                                <exclude reference="r0F-3c-Eof"/>
+                                <exclude reference="Ebd-yC-uOU"/>
+                                <exclude reference="Vat-Zj-7e4"/>
+                                <exclude reference="MP7-pw-rwP"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="iKD-dW-kxi"/>
+                                <include reference="lZr-5I-UPC"/>
+                                <include reference="4MM-Su-Lbm"/>
+                                <include reference="r0F-3c-Eof"/>
+                                <include reference="Ebd-yC-uOU"/>
+                                <include reference="Vat-Zj-7e4"/>
+                                <include reference="MP7-pw-rwP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="Vat-Zj-7e4" id="pM9-Th-uj8"/>
+                        <outlet property="button2" destination="r0F-3c-Eof" id="2NK-rN-Cm7"/>
+                        <outlet property="button3" destination="Ebd-yC-uOU" id="82w-Vv-suL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clr-7H-ZNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="420.75"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="v3Z-D9-YNr">
+            <objects>
+                <viewController id="bWh-J4-OUh" customClass="FourthViewController" customModule="Balloons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="58L-yW-tCp"/>
+                        <viewControllerLayoutGuide type="bottom" id="300-TJ-l0m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C57-ln-oZr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HrD-v2-aaC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="395" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="HrD-v2-aaC"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="HrD-v2-aaC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9U-sU-f0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728" y="420.75"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="z1D-nI-PHR">
+            <objects>
+                <viewController id="rG6-Tq-2VX" customClass="FifthViewController" customModule="Balloons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zeb-54-TSt"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ch-Pg-YgP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sRO-7t-Hqy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mqE-ja-F6w">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="mqE-ja-F6w"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="mqE-ja-F6w"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="097-W2-Lf1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="1079.25"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="G8W-j7-3GJ">
+            <objects>
+                <viewController id="faZ-QZ-Ox9" customClass="ThirdViewController" customModule="Balloons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eVD-jx-QqI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ahr-ZH-6kK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d1h-eG-4QD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xd8-8g-u8j">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xd8-8g-u8j" firstAttribute="leading" secondItem="d1h-eG-4QD" secondAttribute="leadingMargin" constant="-20" id="3Wq-g5-210"/>
+                            <constraint firstItem="Ahr-ZH-6kK" firstAttribute="top" secondItem="xd8-8g-u8j" secondAttribute="bottom" id="AB9-rt-IPA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xd8-8g-u8j" secondAttribute="trailing" constant="-20" id="InE-CE-vg7"/>
+                            <constraint firstItem="xd8-8g-u8j" firstAttribute="top" secondItem="d1h-eG-4QD" secondAttribute="topMargin" id="VaP-K0-Gp1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="xd8-8g-u8j"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="AB9-rt-IPA"/>
+                                <exclude reference="3Wq-g5-210"/>
+                                <exclude reference="InE-CE-vg7"/>
+                                <exclude reference="VaP-K0-Gp1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="xd8-8g-u8j"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="AB9-rt-IPA"/>
+                                <include reference="3Wq-g5-210"/>
+                                <include reference="InE-CE-vg7"/>
+                                <include reference="VaP-K0-Gp1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yVk-6H-syw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035" y="-231"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9Ed-eV-Aok">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kTm-Oa-D60" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gn0-Y1-FsB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mdS-bk-Aor"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NuH-vO-cWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-302" y="420.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homepage.jpg" width="750" height="1334"/>
+        <image name="news.png" width="200" height="100"/>
+        <image name="newspage.jpg" width="750" height="1334"/>
+        <image name="num1.jpg" width="250" height="244"/>
+        <image name="num2.jpg" width="457" height="363"/>
+        <image name="num3.jpg" width="185" height="234"/>
+    </resources>
+</document>
