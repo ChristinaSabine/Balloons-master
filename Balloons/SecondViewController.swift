@@ -1,5 +1,8 @@
 import UIKit
 import MapKit
+import CoreLocation
+
+let locationManager = CLLocationManager()
 
 
 class SecondViewController: UIViewController {
@@ -27,49 +30,27 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var button8: UIButton!
     
     @IBOutlet weak var button9: UIButton!
-    
-    let locationManager = CLLocationManager()
-    
-    //This is where I have set up the location for where you can open the application. When is this area/Users/Tina/Desktop/Balloons-master/Balloons/SecondViewController.swift you will see a ENTER button.
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.button1.hidden = true
         
-        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
         
-        let bournemouthPier = CLLocationCoordinate2D(latitude: 50.716098, longitude: -1.875780)
-        let bournemouthPierRegion = CLCircularRegion(center: bournemouthPier, radius: 100, identifier: "Bournemouth")
-        locationManager.startMonitoringForRegion(bournemouthPierRegion)
-        
     }
-    
 }
 
 extension ViewController: CLLocationManagerDelegate {
     
-
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
         let newLocation = locations.last
         
         if let newLocation = newLocation {
-            
             print(newLocation)
         }
-    }
-    
-    func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
-        print("Entering \(region.identifier)")
         
-        self.button1.hidden = false
-    }
-    
-    func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
-        print("Leaving \(region.identifier)")
-        
-        self.button1.hidden = true
-        //navigationController?.popToRootViewControllerAnimated(true)
     }
     
 }
