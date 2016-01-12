@@ -72,13 +72,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xes-oX-cjd">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-3c-Eof">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
+                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="736"/>
+                                    <rect key="frame" x="162" y="103" width="77" height="108"/>
                                 </variation>
-                            </mapView>
+                                <connections>
+                                    <segue destination="bWh-J4-OUh" kind="show" id="Ffd-Z4-Abk"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-yC-uOU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
@@ -167,23 +171,19 @@
                                     <segue destination="faZ-QZ-Ox9" kind="show" id="7qG-kb-vtg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-3c-Eof">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xes-oX-cjd">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="162" y="103" width="77" height="108"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="736"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="bWh-J4-OUh" kind="show" id="Ffd-Z4-Abk"/>
-                                </connections>
-                            </button>
+                            </mapView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="xes-oX-cjd"/>
+                                <exclude reference="r0F-3c-Eof"/>
                                 <exclude reference="Ebd-yC-uOU"/>
                                 <exclude reference="YfP-sw-4BR"/>
                                 <exclude reference="AXj-8J-YEW"/>
@@ -192,12 +192,12 @@
                                 <exclude reference="uFu-kx-pht"/>
                                 <exclude reference="yci-ui-Fa8"/>
                                 <exclude reference="Vat-Zj-7e4"/>
-                                <exclude reference="r0F-3c-Eof"/>
+                                <exclude reference="xes-oX-cjd"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="xes-oX-cjd"/>
+                                <include reference="r0F-3c-Eof"/>
                                 <include reference="Ebd-yC-uOU"/>
                                 <include reference="YfP-sw-4BR"/>
                                 <include reference="AXj-8J-YEW"/>
@@ -206,7 +206,7 @@
                                 <include reference="uFu-kx-pht"/>
                                 <include reference="yci-ui-Fa8"/>
                                 <include reference="Vat-Zj-7e4"/>
-                                <include reference="r0F-3c-Eof"/>
+                                <include reference="xes-oX-cjd"/>
                             </mask>
                         </variation>
                     </view>

@@ -3,17 +3,31 @@
     
     <wpt lat="50.719799" lon="-1.879439">
         <name>Gardens</name>
-        <time>2014-09-24T14:55:30Z</time>
+        <time>2014-09-24T14:55:05Z</time>
     </wpt>
     
     <wpt lat="50.716098" lon="-1.875780">
         <name>Bournemouth Pier</name>
-        <time>2014-09-24T14:55:40Z</time>
+        <time>2014-09-24T14:55:10Z</time>
     </wpt>
     
-    <wpt lat="50.719914" lon="-1.843552">
-        <name>Boscome Pier</name>
-        <time>2014-09-24T14:55:50Z</time>
+    <wpt lat="50.720760" lon="-1.885116">
+        <name>Bmth Shops</name>
+        <time>2014-09-24T14:55:15Z</time>
     </wpt>
     
+    <wpt lat="50.742384" lon="-1.892374">
+        <name>University</name>
+        <time>2014-09-24T14:55:20Z</time>
+    </wpt>
+    
+    <wpt lat="50.742629" lon="-1.871342">
+        <name>home</name>
+        <time>2014-09-24T14:55:25Z</time>
+    </wpt>
+    
+    <wpt lat="50.726912" lon="-1.865146">
+        <name>train</name>
+        <time>2014-09-24T14:55:30Z</time>
+    </wpt>
 </gpx>
