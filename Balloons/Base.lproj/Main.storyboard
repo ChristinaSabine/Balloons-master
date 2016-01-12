@@ -116,7 +116,6 @@
                                     <rect key="frame" x="22" y="411" width="100" height="110"/>
                                 </variation>
                                 <connections>
-                                    <action selector="button4:" destination="4pl-cb-0hl" eventType="touchUpInside" id="rch-9A-mam"/>
                                     <segue destination="BIm-VL-teT" kind="show" id="p7B-ox-bPM"/>
                                 </connections>
                             </button>
@@ -204,7 +203,6 @@
                     </view>
                     <connections>
                         <outlet property="button1" destination="Vat-Zj-7e4" id="pM9-Th-uj8"/>
-                        <outlet property="button2" destination="r0F-3c-Eof" id="2NK-rN-Cm7"/>
                         <outlet property="button3" destination="Ebd-yC-uOU" id="82w-Vv-suL"/>
                         <outlet property="button4" destination="YfP-sw-4BR" id="9iy-vB-b8l"/>
                         <outlet property="button5" destination="AXj-8J-YEW" id="RY5-pI-aAJ"/>
