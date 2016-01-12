@@ -2,8 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kTm-Oa-D60">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -22,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="30" width="400" height="656"/>
+                                    <rect key="frame" x="-7" y="33" width="400" height="656"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgr-0S-bwJ">
@@ -30,7 +28,7 @@
                                 <animations/>
                                 <state key="normal" image="enter.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="158" y="284" width="85" height="28"/>
+                                    <rect key="frame" x="123" y="262" width="140" height="69"/>
                                 </variation>
                                 <connections>
                                     <segue destination="4pl-cb-0hl" kind="show" id="b5V-MQ-fgf"/>
@@ -232,14 +230,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HrD-v2-aaC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HrD-v2-aaC">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="395" height="736"/>
+                                    <rect key="frame" x="-7" y="35" width="387" height="651"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -273,14 +271,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mqE-ja-F6w">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news3.png" translatesAutoresizingMaskIntoConstraints="NO" id="mqE-ja-F6w">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="-7" y="27" width="387" height="644"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -314,11 +312,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="n8e-cc-4PW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news9.png" translatesAutoresizingMaskIntoConstraints="NO" id="n8e-cc-4PW">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="0.0" y="26" width="380" height="647"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -352,11 +350,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num8.png" translatesAutoresizingMaskIntoConstraints="NO" id="b23-xY-j4X">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news8.png" translatesAutoresizingMaskIntoConstraints="NO" id="b23-xY-j4X">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="-7" y="27" width="387" height="644"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -390,11 +388,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num7.png" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-DR-Qdw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news7.png" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-DR-Qdw">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="-5" y="26" width="385" height="661"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -428,11 +426,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7CN-5b-xgW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news4.png" translatesAutoresizingMaskIntoConstraints="NO" id="7CN-5b-xgW">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="-5" y="27" width="385" height="647"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -466,11 +464,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-Wd-Ca3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news5.png" translatesAutoresizingMaskIntoConstraints="NO" id="kXX-Wd-Ca3">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="0.0" y="25" width="380" height="649"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -504,11 +502,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="num6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FZK-UE-mD0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news6.png" translatesAutoresizingMaskIntoConstraints="NO" id="FZK-UE-mD0">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                    <rect key="frame" x="-5" y="27" width="385" height="645"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -542,39 +540,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news1.png" translatesAutoresizingMaskIntoConstraints="NO" id="xd8-8g-u8j">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new1.png" translatesAutoresizingMaskIntoConstraints="NO" id="V3F-kd-ogx">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-8" y="20" width="388" height="657"/>
+                                </variation>
                             </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="xd8-8g-u8j" firstAttribute="leading" secondItem="d1h-eG-4QD" secondAttribute="leadingMargin" constant="-20" id="3Wq-g5-210"/>
-                            <constraint firstItem="Ahr-ZH-6kK" firstAttribute="top" secondItem="xd8-8g-u8j" secondAttribute="bottom" id="AB9-rt-IPA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xd8-8g-u8j" secondAttribute="trailing" constant="-20" id="InE-CE-vg7"/>
-                            <constraint firstItem="xd8-8g-u8j" firstAttribute="top" secondItem="d1h-eG-4QD" secondAttribute="topMargin" id="VaP-K0-Gp1"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="xd8-8g-u8j"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="AB9-rt-IPA"/>
-                                <exclude reference="3Wq-g5-210"/>
-                                <exclude reference="InE-CE-vg7"/>
-                                <exclude reference="VaP-K0-Gp1"/>
+                                <exclude reference="V3F-kd-ogx"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=regular">
+                        <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="xd8-8g-u8j"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="AB9-rt-IPA"/>
-                                <include reference="3Wq-g5-210"/>
-                                <include reference="InE-CE-vg7"/>
-                                <include reference="VaP-K0-Gp1"/>
+                                <include reference="V3F-kd-ogx"/>
                             </mask>
                         </variation>
                     </view>
@@ -606,15 +589,15 @@
     <resources>
         <image name="enter.png" width="85" height="28"/>
         <image name="homepage.jpg" width="750" height="1334"/>
-        <image name="news1.png" width="750" height="1334"/>
+        <image name="new1.png" width="750" height="1334"/>
+        <image name="news2.png" width="750" height="1334"/>
+        <image name="news3.png" width="750" height="1334"/>
+        <image name="news4.png" width="750" height="1334"/>
+        <image name="news5.png" width="750" height="1334"/>
+        <image name="news6.png" width="750" height="1334"/>
+        <image name="news7.png" width="750" height="1334"/>
+        <image name="news8.png" width="750" height="1334"/>
+        <image name="news9.png" width="750" height="1334"/>
         <image name="newspage.jpg" width="750" height="1334"/>
-        <image name="num2.jpg" width="457" height="363"/>
-        <image name="num3.jpg" width="185" height="234"/>
-        <image name="num4.jpg" width="1200" height="630"/>
-        <image name="num5.jpg" width="572" height="733"/>
-        <image name="num6.jpg" width="405" height="296"/>
-        <image name="num7.png" width="800" height="600"/>
-        <image name="num8.png" width="894" height="894"/>
-        <image name="num9.jpg" width="2644" height="2644"/>
     </resources>
 </document>
