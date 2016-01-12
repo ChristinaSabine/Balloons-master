@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-//Many deaths spead...
+//This is News Story 4
 class SixthViewController: UIViewController {
     
     

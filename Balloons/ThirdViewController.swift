@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-//Is Bournemouth Balloon killing...
+//This is News Story 1
 class ThirdViewController: UIViewController {
     
         

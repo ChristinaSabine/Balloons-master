@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-//Good rindence to all the balloons...
+//This is News Story 7
 class NinthViewController: UIViewController {
     
     

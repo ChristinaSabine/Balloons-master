@@ -50,7 +50,7 @@ extension ViewController: CLLocationManagerDelegate {
         print("Leaving \(region.identifier)")
         
         self.enterButton.hidden = true
-       //navigationController?.popToRootViewControllerAnimated(true)
+       navigationController?.popToRootViewControllerAnimated(true)
     }
     
 }

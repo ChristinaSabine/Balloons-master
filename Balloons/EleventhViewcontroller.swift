@@ -1,12 +1,11 @@
 import UIKit
 import MapKit
 
-//Balloons stand only for them...
+//This is News Story 9
 class EleventhViewController: UIViewController {
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
 }

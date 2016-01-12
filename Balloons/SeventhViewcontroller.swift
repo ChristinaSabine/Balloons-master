@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-//Bournemouth is not longer safe...
+//This is News Story 5
 class SeventhViewController: UIViewController {
     
     

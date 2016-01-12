@@ -1,7 +1,7 @@
 import UIKit
 import MapKit
 
-//Balloons here to help? I think Not!...
+//This is News Story 6
 class EightViewController: UIViewController {
     
     

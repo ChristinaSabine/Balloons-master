@@ -72,12 +72,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapkit.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ywr-Vo-ghY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="380" height="736"/>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-3c-Eof">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="162" y="103" width="77" height="108"/>
+                                    <rect key="frame" x="162" y="489" width="34" height="41"/>
                                 </variation>
                                 <connections>
                                     <segue destination="bWh-J4-OUh" kind="show" id="Ffd-Z4-Abk"/>
@@ -86,9 +92,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-yC-uOU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="302" y="103" width="78" height="108"/>
+                                    <rect key="frame" x="28" y="81" width="33" height="60"/>
                                 </variation>
                                 <connections>
                                     <segue destination="rG6-Tq-2VX" kind="show" id="peX-2V-c9v"/>
@@ -97,9 +102,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfP-sw-4BR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="28" y="258" width="77" height="107"/>
+                                    <rect key="frame" x="266" y="555" width="33" height="58"/>
                                 </variation>
                                 <connections>
                                     <segue destination="BIm-VL-teT" kind="show" id="p7B-ox-bPM"/>
@@ -108,9 +112,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXj-8J-YEW">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="162" y="258" width="77" height="108.5"/>
+                                    <rect key="frame" x="354" y="374" width="36" height="61.5"/>
                                 </variation>
                                 <connections>
                                     <segue destination="IBQ-KS-bhu" kind="show" id="boO-9f-sdo"/>
@@ -119,31 +122,18 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AV0-I2-fZb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="303" y="258" width="77" height="108.5"/>
+                                    <rect key="frame" x="220" y="564" width="31" height="60.5"/>
                                 </variation>
                                 <connections>
                                     <segue destination="2b4-q4-ev8" kind="show" id="j49-6K-y1E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztV-Rl-oGB">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="28" y="421" width="77" height="109"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="R7w-4L-x34" kind="show" id="v0l-tG-sVh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFu-kx-pht">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="162" y="422" width="77" height="108"/>
+                                    <rect key="frame" x="120" y="489" width="34" height="50"/>
                                 </variation>
                                 <connections>
                                     <segue destination="F5t-kk-LL1" kind="show" id="vEd-Sb-qIa"/>
@@ -152,9 +142,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yci-ui-Fa8">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="302" y="422" width="78" height="107"/>
+                                    <rect key="frame" x="281" y="146" width="34" height="46"/>
                                 </variation>
                                 <connections>
                                     <segue destination="lsq-rW-3q1" kind="show" id="dRa-5r-fA3"/>
@@ -163,55 +152,57 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vat-Zj-7e4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="27" y="103" width="78" height="109"/>
+                                    <rect key="frame" x="191" y="516" width="41" height="61"/>
                                 </variation>
                                 <connections>
                                     <segue destination="faZ-QZ-Ox9" kind="show" id="7qG-kb-vtg"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xes-oX-cjd">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztV-Rl-oGB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
+                                <state key="normal" backgroundImage="Pin.png"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="736"/>
+                                    <rect key="frame" x="294" y="466" width="41" height="58"/>
                                 </variation>
-                            </mapView>
+                                <connections>
+                                    <segue destination="R7w-4L-x34" kind="show" id="v0l-tG-sVh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="Ywr-Vo-ghY"/>
                                 <exclude reference="r0F-3c-Eof"/>
                                 <exclude reference="Ebd-yC-uOU"/>
                                 <exclude reference="YfP-sw-4BR"/>
                                 <exclude reference="AXj-8J-YEW"/>
                                 <exclude reference="AV0-I2-fZb"/>
-                                <exclude reference="ztV-Rl-oGB"/>
                                 <exclude reference="uFu-kx-pht"/>
                                 <exclude reference="yci-ui-Fa8"/>
                                 <exclude reference="Vat-Zj-7e4"/>
-                                <exclude reference="xes-oX-cjd"/>
+                                <exclude reference="ztV-Rl-oGB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="Ywr-Vo-ghY"/>
                                 <include reference="r0F-3c-Eof"/>
                                 <include reference="Ebd-yC-uOU"/>
                                 <include reference="YfP-sw-4BR"/>
                                 <include reference="AXj-8J-YEW"/>
                                 <include reference="AV0-I2-fZb"/>
-                                <include reference="ztV-Rl-oGB"/>
                                 <include reference="uFu-kx-pht"/>
                                 <include reference="yci-ui-Fa8"/>
                                 <include reference="Vat-Zj-7e4"/>
-                                <include reference="xes-oX-cjd"/>
+                                <include reference="ztV-Rl-oGB"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="MyMap" destination="xes-oX-cjd" id="rsM-VX-XUn"/>
                         <outlet property="button1" destination="Vat-Zj-7e4" id="pM9-Th-uj8"/>
                         <outlet property="button3" destination="Ebd-yC-uOU" id="82w-Vv-suL"/>
                         <outlet property="button4" destination="YfP-sw-4BR" id="9iy-vB-b8l"/>
@@ -598,6 +589,7 @@
         <image name="Pin.png" width="2480" height="3508"/>
         <image name="enter.png" width="85" height="28"/>
         <image name="homepage.jpg" width="750" height="1334"/>
+        <image name="mapkit.png" width="750" height="1334"/>
         <image name="new1.png" width="750" height="1334"/>
         <image name="news2.png" width="750" height="1334"/>
         <image name="news3.png" width="750" height="1334"/>
