@@ -53,6 +53,7 @@
 		26FFDAE51C44623A00486AE2 /* news8.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FFDADC1C44623A00486AE2 /* news8.png */; settings = {ASSET_TAGS = (); }; };
 		26FFDAE61C44623A00486AE2 /* news9.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FFDADD1C44623A00486AE2 /* news9.png */; settings = {ASSET_TAGS = (); }; };
 		26FFDAE81C44625D00486AE2 /* new1.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FFDAE71C44625D00486AE2 /* new1.png */; settings = {ASSET_TAGS = (); }; };
+		26FFDAEA1C45064E00486AE2 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FFDAE91C45064E00486AE2 /* loading.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		26FFDADC1C44623A00486AE2 /* news8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news8.png; sourceTree = "<group>"; };
 		26FFDADD1C44623A00486AE2 /* news9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news9.png; sourceTree = "<group>"; };
 		26FFDAE71C44625D00486AE2 /* new1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new1.png; sourceTree = "<group>"; };
+		26FFDAE91C45064E00486AE2 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				260408BA1C3EA01100D29BC0 /* num5.jpg */,
 				260408BB1C3EA01100D29BC0 /* num6.jpg */,
 				260408BC1C3EA01100D29BC0 /* num7.png */,
+				26FFDAE91C45064E00486AE2 /* loading.png */,
 				260408BD1C3EA01100D29BC0 /* num8.png */,
 				260408BE1C3EA01100D29BC0 /* num9.jpg */,
 				204856C91C197A6C0028CA55 /* Assets.xcassets */,
@@ -375,6 +378,7 @@
 				26FFDAE41C44623A00486AE2 /* news7.png in Resources */,
 				260408D41C3EB0B600D29BC0 /* num4.jpg in Resources */,
 				26FFDAE11C44623A00486AE2 /* news4.png in Resources */,
+				26FFDAEA1C45064E00486AE2 /* loading.png in Resources */,
 				260408C41C3EA01100D29BC0 /* num7.png in Resources */,
 				260408C11C3EA01100D29BC0 /* num3.jpg in Resources */,
 			);
